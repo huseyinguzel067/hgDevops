@@ -8,7 +8,7 @@ public class webController {
 	
 	@GetMapping(path = "/hello-world")
 	public String helloWorld() {
-		return "Hello World vesion2 bakaklımdddd bundan sonra";
+		return "Hello ddWorld vesion2 bakaklımdddd bundan sonra";
 	}
 
 }
