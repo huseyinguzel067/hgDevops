@@ -1,15 +1,13 @@
-package com.web.app;
+package com.web.com.web.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-
 @SpringBootApplication
-public class webServiceApp {
-	
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(webServiceApp.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 
 }
